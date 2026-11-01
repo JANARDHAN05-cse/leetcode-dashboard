@@ -1,2 +1,12 @@
-# LeetCode Dashboard
-you can have fun with your friends and leetcode
+# LeetCode Leaderboard
+
+A public leaderboard for tracking LeetCode users and their competitive programming progress.
+
+## Tech Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- Node.js
+- Express
+- PostgreSQL
