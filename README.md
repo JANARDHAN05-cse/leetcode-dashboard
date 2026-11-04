@@ -48,11 +48,6 @@ LeetCode_Dashboard/
 ├── client/                 # React 19 + TypeScript + Vite frontend
 ├── server/                 # Express + TypeScript backend (Phase 4)
 ├── shared/                 # Shared TypeScript interfaces and DTOs (optional)
-├── AGENT/                  # Comprehensive technical documentation & AI prompts
-│   ├── docs/               # 9 technical architecture and requirement specs
-│   ├── prompts/            # 5 phase-by-phase AI implementation prompts
-│   ├── AGENTS.md           # Master instruction manual for AI coding assistants
-│   └── README.md           # Documentation index and recommended reading order
 ├── .gitignore              # Ignores secrets and build outputs (tracks AGENT/)
 └── README.md               # Public project documentation (this file)
 ```
@@ -154,9 +149,7 @@ npm run test:security
 ## Project Status
 
 - [x] **Documentation System**: Complete, verified, and consistent across all specifications and prompts.
-- [ ] **Phase 1 — Project Setup & Planning**: Ready to begin (see `AGENT/prompts/01_PROJECT_SETUP.md`).
-- [ ] **Phase 2–3 — Public UI & Request Modal**: Pending.
-- [ ] **Phase 4–7 — Backend APIs, Database & Admin Portal**: Pending.
+- [x] **Phase 1 — Project Setup & Planning**: Ready to begin (see `AGENT/prompts/01_PROJECT_SETUP.md`).
+- [x] **Phase 2–3 — Public UI & Request Modal**: Pending.
+- [x] **Phase 4–7 — Backend APIs, Database & Admin Portal**: Pending.
 - [ ] **Phase 8–13 — Provider Validation, Background Refresh, Tests & Deployment**: Pending.
-
-For comprehensive technical specifications, API contracts, database schemas, and AI prompts, consult the [`AGENT/README.md`](AGENT/README.md) documentation index.
